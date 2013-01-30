@@ -1,0 +1,120 @@
+/*
+Theme Name:Festival
+Theme URI:http://festivalLGBT.com/
+Description:Thème enfant du thème Twenty Twelve
+Author:LY Yeu
+Author URI:http://festivalLGBT.com/about/
+Template:twentytwelve
+Version:0.1.0
+*/
+@import url("../twentytwelve/style.css");
+
+html body, #page{
+	background-color: #5eb5a8!important;
+  box-shadow: none;
+}
+.site-title{
+  font-size: 50px!important;
+  text-shadow: 1px 1px 0 #000000!important;
+}
+.fg-orange a {
+	color:#CC6600!important;
+}
+.fg-green a {
+	color:#00FF00!important;
+}
+.fg-red a {
+	color:#FF0000!important;
+}
+.fg-yellow a {
+	color:#FFFF00!important;
+}
+.fg-blue a {
+	color:#0099FF!important;
+}
+.fg-purple a {
+	color:#9900FF!important;
+}
+.current-menu-item.fg-orange a,.fg-orange a:hover {
+  background-color:#CC6600!important;
+}
+.current-menu-item.fg-green a,.fg-green a:hover {
+  background-color:#00FF00!important;
+}
+.current-menu-item.fg-red a,.fg-red a:hover {
+  background-color:#FF0000!important;
+}
+.current-menu-item.fg-yellow a,.fg-yellow a:hover {
+  background-color:#FFFF00!important;
+}
+.current-menu-item.fg-blue a,.fg-blue a:hover {
+  background-color:#0099FF!important;
+}
+.current-menu-item.fg-purple a,.fg-purple a:hover {
+  background-color:#9900FF!important;
+}
+.main-navigation li a{
+  text-shadow: 1px 1px 0 #000000!important;
+  font-weight: bold;
+  font-size: 18px;
+  line-height:30px;
+  padding: 10px;
+}
+.current-menu-item a,.main-navigation li a:hover{
+  color:#FFFFFF!important;
+  text-shadow: 1px 1px 0 #000000!important;
+}
+.nav-menu{
+/*  background-color: #C0C0C0!important;*/
+}
+.main-navigation li {
+  margin:0px;
+/*  margin-left: 5px;
+  margin-right: 5px;*/
+}
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+    border: 0 none;
+}
+li:hover{
+  font-color:white!important;
+  
+}
+.widget_text,.status-publish{
+  background-color:#FFF0F5!important;
+  padding:30px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+.widget_text p{
+  padding: 0px;
+  margin: 0px;
+  line-height:0px;
+  margin-bottom: 0.71rem;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+ }
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+ }
