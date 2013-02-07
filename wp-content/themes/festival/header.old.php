@@ -52,8 +52,9 @@
 	</header><!-- #masthead -->
 
 	<div id="main" class="wrapper">
+	
 	<?php if(is_home()||is_front_page()): ?>
-		<ul class="rslides">
+		<ul class="rslide">
 			<?php getSlideItem(); ?>
 		</ul>
 	<?php endif; ?>
